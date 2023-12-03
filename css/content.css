@@ -50,6 +50,13 @@ h1
 {
     padding: 0 15px;
     text-transform: capitalize;
+    font-family: 'Lemonada', cursive;
+}
+#details h3,#details h2{
+    font-size: medium;
+}
+#details h4{
+    font-size: small;
 }
 #box a 
 {
@@ -68,7 +75,12 @@ h2
 {
     color: rgb(3, 94, 94);
 }
-
+#mainContainer h1{
+    width: auto;
+    margin-right: 100px;
+    font-family: 'Ruwudu', serif;
+    font-size: 50px;
+}
 /* ----------------------------- MEDIA QUERY --------------------------- */
 
 @media(max-width: 1070px)

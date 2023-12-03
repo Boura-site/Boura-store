@@ -16,18 +16,24 @@
 }
 #aboutCheck p
 {
+    font-family: 'Lemonada', cursive;
     font-weight: 100;
     letter-spacing: 1px;
 }
 #aboutCheck h1
 {
+    font-family: 'Lemonada', cursive;
     letter-spacing: 1px;
     word-spacing: 1px;
 }
 #aboutUs p
 {
-    font-family: 'Ruwudu', serif;
-    font-weight: 100;
+    /* font-family: 'Tajawal', sans-serif; */
+    font-family: 'Mada', sans-serif;
+    font-family: 'Lemonada', cursive;
+
+    /* font-weight: 100; */
+    font-size: smaller;
     letter-spacing: 1px;
 }
 #aboutUs h1

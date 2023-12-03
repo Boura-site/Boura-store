@@ -41,8 +41,21 @@ body
 {
     width: 100%;
 }
+#productDetails h3{
+    font-family: 'Lemonada', cursive;
+    font-size: medium;
+}
+#productDetails h1{
+    font-family: 'Lemonada', cursive;
+    font-size: large;
+}
+#productDetails h4,#productDetails button,#productDetails p{
+    font-family: 'Lemonada', cursive;
+    font-size: smaller;
+}
 h1
 {
+    /* font-size: small; */
     font-size: 35px;
     letter-spacing: 1px;
     word-spacing: 2px;
@@ -84,12 +97,13 @@ button
     font-size: 20px;
 }
 button a
-{
+{    color: white;
     text-decoration: none;
     font-size: 18px;
 }
 button:hover
 {
+    color: white;
     background-color: rgb(3, 94, 94);
 }
 button a:focus
@@ -114,6 +128,7 @@ button a:focus
     button
     {
         padding: 8px 13px;
+        color: white;
         background-color: rgb(3, 122, 122);
         border: none;
         border-radius: 5px;

@@ -5,8 +5,16 @@ body
 }
 #cartMainContainer
 {
-    
+    margin-right: 20px;
+    font-family: 'Lemonada', cursive;
     padding: 90px 50px;
+}
+#cartMainContainer h2,#cartMainContainer h4{
+font-size: medium;
+}
+#cartMainContainer h3{
+    font-size: large;
+
 }
 #cartContainer
 {
@@ -58,6 +66,7 @@ img
 button
 {
     padding: 8px 12px;
+    color: white;
     background-color: rgb(3, 122, 122);
     border: none;
     border-radius: 5px;

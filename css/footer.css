@@ -17,13 +17,23 @@ body
     padding: 15px 300px;
     box-sizing: border-box;
 }
-#webFooter a {
+#containerFooter h3{
+    font-family: 'Lemonada', cursive;
+    font-size: medium;
+}
+#webFooter a{
     color: white;
     text-decoration: none;
+    font-family: 'Lemonada', cursive;
+    font-size: x-small;
+}
+#webFooter p{
+    font-family: 'Lemonada', cursive;
+    font-size: smaller;
 }
 #containerFooter h3:hover, #containerFooter p:hover,#webFooter a:hover
 {
-    color: lightslategray;
+    color: green;
     cursor: pointer;
 }
 #webFooter
@@ -46,6 +56,8 @@ body
 
 #credit a
 {
+    font-family: 'Lemonada', cursive;
+    font-size: smaller;
     color: white;
     text-decoration: none;
     position: relative;
